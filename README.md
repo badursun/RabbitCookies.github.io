@@ -31,17 +31,20 @@ Getting Started
 
 To get started with RabbitCookies, include the jQuery library and the RabbitCookies script in your HTML file:
 
+```html
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="path/to/rabbitcookies.js"></script>
 <!-- optional external language file(s)-->
 <script src="langs/es.js"></script>
-
+```
 **Ready language files:** ar, cs, de, en, es, fr, it, ja, jo, nl, pl, pt, ru, sv, tr, zh
 
 ### 2\. Initialization (Basic)
 
 Initialize the RabbitCookies plugin with your desired settings:
 
+
+```html
 <script>
 $(document).ready(function () {
 	$.RabbitCookies({
@@ -52,6 +55,7 @@ $(document).ready(function () {
 	});
 });
 </script>
+```
 
 ### 3\. Usage
 
@@ -64,6 +68,7 @@ Once initialized, RabbitCookies will automatically display the cookie consent ba
 
 Here is a simple example demonstrating the basic usage of RabbitCookies:
 
+```html
 <script>
 $(document).ready(function () {
 	$.RabbitCookies({
@@ -113,6 +118,7 @@ $(document).ready(function () {
 	});
 });
 </script>
+```
 
 ### 4\. Settings
 
@@ -616,4 +622,6 @@ Contributions are welcome! If you encounter any issues, have suggestions, or wan
 
 Start using RabbitCookies today to ensure your website is GDPR/KVKK compliant while maintaining a smooth and user-friendly experience. Happy coding! 🎉
 
+```javascript
 $(document).ready(function () { /\* Demo Code Start \*/ $(document).on('change', '\[data-theme-mode\]', function(event) { event.preventDefault(); let newMode = $('option:selected', $('\[data-theme-mode\]')).val(); $('#rabbit-cookie-banner').attr('data-mode', newMode); }); $(document).on('change', '\[data-theme-position\]', function(event) { event.preventDefault(); let newPosition = $('option:selected', $('\[data-theme-position\]')).val(); $('#rabbit-cookie-banner').attr('data-position', newPosition); }); $(document).on('change', '\[data-set-theme\]', function(event) { event.preventDefault(); let newTheme = $('option:selected', $('\[data-set-theme\]')).val(); $('#rabbit-cookie-banner').attr('data-theme', newTheme); }); $(document).on('change', '\[data-set-lang\]', function(event) { event.preventDefault(); let newLang = $('option:selected', $('\[data-set-lang\]')).val(); $.RabbitCookies.update({language: newLang}); }); /\* Demo Code End \*/ $.RabbitCookies({ language : "tr", useLocalStorage : true, backgroundOverlay : false, uiSettings : { theme : 'theme-2', darkMode : true, bannerPosition : 'top-right', // bottom-right, bottom-left, top-right, top-left, center-modal, bottom-line, top-line bannerBgColor : '#fff', bannerTextColor : '#000', bannerBtnColor : '#000', bannerBtnTxtColor : '#fff', bannerBadgeBg : '#fff', detailsUrl : 'https://google.com', }, translations : { fr: { title : 'Nous utilisons des cookies pour améliorer', message : 'Nous utilisons des cookies pour améliorer votre expérience. En acceptant, vous acceptez notre politique de cookies.', accept : 'Accepter', decline : 'Refuser', details : 'Détails', badgeText : '🍪', iframeContent : 'Ce contenu est bloqué.<br/>Veuillez consulter vos préférences en matière de <a href="#" class="gdpr-open-preferences">protection de la vie privée</a>.', iframeSourceText: 'Source bloquée: {source}', } }, onInit : (settings) => { writeConsole(\`Cookie Consent Inited\`); writeConsole(\`Plugin data storage preference: '${settings.useLocalStorage==true?'localStorage':'cookie'}'\`); /\* Demo Selectboxes \*/ $('\[data-set-theme\]').val( settings.uiSettings.theme ); $('\[data-theme-mode\]').val( settings.uiSettings.darkMode==true ? \`dark\`:\`light\` ); $('\[data-theme-position\]').val( settings.uiSettings.bannerPosition ); /\* Demo Selectboxes \*/ console.log(\`Languages: ${Object.keys(settings.translations)}\`); }, onAccepted : () => { writeConsole(\`Cookie Consent: 'Accepted'\`); }, onDeclined : () => { writeConsole(\`Cookie Consent: 'Declined'\`); }, consentStatus : async (status) => { writeConsole(\`is Allowed: '${status.allowed}'\`); writeConsole(\`is Asked: '${status.asked}'\`); writeConsole(\`Cookie Consent Status: ${status.allowed==null ? 'NOT ANSWERED' : (status==true ? 'ACCEPTED' : 'DECLINED')}\`); }, IframeAllowedDomains: \['youtube.com', 'youtu.be', 'vimeo.com'\], thirdPartyScripts : \[ { src : "https://www.googletagmanager.com/gtag/js?id=YOUR\_GA\_TRACKING\_ID", load : "async", // async,defer,null appendTo: "head", // head,body callback: (event)=>{ writeConsole(\`Script Loading: ${event.src}\`); if(event.status){ writeConsole(\`Script Loaded: ${event.src}\`); $('#script\_1').addClass('runned'); }else{ writeConsole(\`Script Not Loaded: ${event.src}\`); writeConsole(\`Error: ${event.message}\`); $('#script\_1').addClass('failed'); } // $('#script\_1 span').html(event.message); } }, { src : "http://non-exist-domain.co.de.tr", load : "async", // async,defer,null appendTo: "head", // head,body callback: (event)=>{ writeConsole(\`Script Loading: ${event.src}\`); if(event.status){ // writeConsole(\`Script Loaded: ${event.src}\`); $('#script\_2').addClass('runned'); }else{ // $('#script\_2').addClass('failed'); writeConsole(\`Script Not Loaded: ${event.src}\`); writeConsole(\`Error: ${event.message}\`); } // $('#script\_2 span').html(event.message); } }, \], thirdPartyFunctions : \[ (event) => { writeConsole(\`Function Loading: ${JSON.stringiy(event)}\`); if(event.status){ writeConsole(\`Function Success: ${JSON.stringiy(event)}\`); // $('#function\_1').addClass('runned'); }else{ writeConsole(\`Function Failed: ${JSON.stringiy(event)}\`); // $('#function\_1').addClass('failed'); } // $('#function\_1 span').html(event.message); }, (event) => { writeConsole(\`Function Loading: ${JSON.stringiy(event)}\`); if(event.status){ writeConsole(\`Function Success: ${JSON.stringiy(event)}\`); // $('#function\_2').addClass('runned'); }else{ writeConsole(\`Function Failed: ${JSON.stringiy(event)}\`); // $('#function\_2').addClass('failed'); } // $('#function\_2 span').html(event.message); }, \], }); }); function writeConsole(text){ $('#console').append(\`> ${text}\\n\`); }
+```
