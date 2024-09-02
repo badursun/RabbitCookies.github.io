@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RabbitCookie Consent</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 offset-lg-2 col-12">
+				<h1>🍪 RabbitCookies - GDPR & KVKK Compliant Cookie Consent Management</h1>
+				<p>Welcome to RabbitCookies! A powerful and flexible jQuery plugin designed to help your website comply with GDPR/KVKK regulations while maintaining a sleek, user-friendly interface. With RabbitCookies, you can easily manage cookie consent, load third-party scripts, and execute custom functions once consent is granted—all with just a few lines of code.</p>
+
+				<h2>Features</h2>
+				<ul>
+					<li>Easy Integration: Simply include the RabbitCookies script in your project, and you're ready to go.</li>
+					<li>Flexible Consent Management: Execute third-party scripts or custom functions based on user consent.</li>
+					<li>Smooth Animations: The cookie banner appears and disappears with smooth animations, enhancing the user experience.</li>
+					<li>Highly Customizable: Easily change texts, styles, and functionalities through the plugin's settings.</li>
+					<li>Multi-Language Support: Add translations for different languages with ease.</li>
+					<li>Richnes: Ready-made themes, easy positions and mobile compatibility</li>
+					<li>Responsive Design: The cookie banner is mobile-friendly and adapts to various screen sizes.</li>
+					<li>Fallback Tolerance: Built-in error handling ensures that the script continues to run smoothly even if issues occur.</li>
+				</ul>
+
+				<h2>Demo</h2>
+				<p>For detailed demo, visit <a href="docs/demo.html" target="_blank">demo page</a>.</p>
+
+				<h2>Getting Started</h2>
+				<hr />
+				<h3>1. Installation</h3>
+				<p>To get started with RabbitCookies, include the jQuery library and the RabbitCookies script in your HTML file:</p>
+				<pre class="codes">
+&lt;script src="https://code.jquery.com/jquery-3.6.0.min.js"&gt;&lt;/script&gt;
+&lt;script src="path/to/rabbitcookies.js"&gt;&lt;/script&gt;
+&lt;!-- optional external language file(s)--&gt;
+&lt;script src="langs/es.js"&gt;&lt;/script&gt;</pre>
+				<p><small><strong>Ready language files: </strong> ar, cs, de, en, es, fr, it, ja, jo, nl, pl, pt, ru, sv, tr, zh</small></p>
+
+				<h3>2. Initialization (Basic)</h3>
+				<p>Initialize the RabbitCookies plugin with your desired settings:</p>
+				<pre class="codes">
+&lt;script&gt;
+$(document).ready(function () {
+	$.RabbitCookies({
+		uiSettings 			: {
+			detailsUrl          : 'https://google.com'
+			bannerPosition 		: 'top-right',
+		},
+	});
+});
+&lt;/script&gt;</pre>
+
+				<h3>3. Usage</h3>
+				<p>Once initialized, RabbitCookies will automatically display the cookie consent banner to users who have not yet given their consent. Based on their choice, RabbitCookies will:</p>
+				<ul>
+					<li>Load third-party scripts: Only after the user accepts the cookies.</li>
+					<li>Execute custom functions: Define any number of functions that should run after the user consents.</li>
+				</ul>
+
+				<h4>Example</h4>
+				<p>Here is a simple example demonstrating the basic usage of RabbitCookies:</p>
+				<pre class="codes">
+&lt;script&gt;
+$(document).ready(function () {
+	$.RabbitCookies({
+		language 			: "en",
+		uiSettings 			: {
+			detailsUrl          : 'https://google.com',
+			bannerPosition 		: 'top-right',
+		},
+        onAccepted          : () => {
+        	// Accept Clicked
+        },
+        onDeclined          : () => {
+        	// Decline Clicked
+        },
+		translations 		: {
+			fr: {
+				title 		: "We use cookies!",
+				message 	: "We use cookies to personalize content and ads, to provide social media features and to analyze our traffic.",
+				accept 		: "Accept All",
+				decline 	: "Decline All",
+				details 	: "Details",
+				badgeText	: '🍪',
+			}
+		},
+		thirdPartyScripts 	: [
+	        {
+	            src 	: "https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID",
+	            load 	: "async",
+	            appendTo: "head",
+	            callback: (event)=>{},
+	        },
+	        {
+	            src 	: "https://cdn.jsdelivr.net/npm/some-plugin@latest/plugin.min.js",
+	            load 	: "defer"
+	            appendTo: "body",
+	            callback: (event)=>{},
+	        }
+		],
+		thirdPartyFunctions 	: [
+	        (event)=>{
+	            console.log('Other script loaded.');
+	        },
+	        function(event) {
+	            console.log('Other plugin initialized.');
+	        }
+		],
+	});
+});
+&lt;/script&gt;</pre>
+
+				<h3>4. Settings</h3>
+				<p>Once initialized, RabbitCookies will automatically display the cookie consent banner to users who have not yet given their consent. Based on their choice, RabbitCookies will:</p>
+				
+				<h4>4.1 General Settings</h4>
+				<div class="table-responsive">
+					<table class="table table-bordered table-striped">
+					    <thead>
+					        <tr>
+					            <th>Parameter</th>
+					            <th>Description</th>
+					            <th>Type</th>
+					            <th>Values</th>
+					            <th>Default</th>
+					        </tr>
+					    </thead>
+					    <tbody>
+					        <tr>
+					            <td>`language`</td>
+					            <td>The language for the banner and messages.</td>
+					            <td>String</td>
+					            <td>Any valid language code (e.g., "en", "fr", "tr")</td>
+					            <td>Auto (navigator.language)</td>
+					        </tr>
+					        <tr>
+					            <td>`useLocalStorage`</td>
+					            <td>Storing RabbitCookies preferences in “localStorage” or as “cookies”..</td>
+					            <td>Boolean</td>
+					            <td>true|false</td>
+					            <td>true</td>
+					        </tr>
+					        <tr>
+					            <td>`backgroundOverlay`</td>
+					            <td>An overlay is used in the background when displaying the cookie warning banner.</td>
+					            <td>Boolean</td>
+					            <td>true|false</td>
+					            <td>true</td>
+					        </tr>
+					    </tbody>
+					</table>
+				</div>
+
+				<h4>4.2 Callback(s)</h4>
+				<div class="table-responsive">
+					<table class="table table-bordered table-striped">
+					    <thead>
+					        <tr>
+					            <th>Parameter</th>
+					            <th>Description</th>
+					            <th>Type</th>
+					            <th>Values</th>
+					            <th>Default</th>
+					        </tr>
+					    </thead>
+					    <tbody>
+					        <tr>
+					            <td>`onInit`</td>
+					            <td>Triggered when main function init.</td>
+					            <td>async function</td>
+					            <td>return settings object</td>
+					            <td>async ()=>{}</td>
+					        </tr>
+					        <tr>
+					            <td>`onAccepted`</td>
+					            <td>Triggered when Accept is clicked.</td>
+					            <td>function</td>
+					            <td></td>
+					            <td>()=>{}</td>
+					        </tr>
+					        <tr>
+					            <td>`onDeclined`</td>
+					            <td>Triggered when Declined is clicked.</td>
+					            <td>function</td>
+					            <td></td>
+					            <td>()=>{}</td>
+					        </tr>
+					        <tr>
+					            <td>`consentStatus`</td>
+					            <td>Triggered when main function init and return consent status.</td>
+					            <td>async function</td>
+					            <td>return {allowed:true|false, asked:true|false}</td>
+					            <td>async ()=>{}</td>
+					        </tr>
+					    </tbody>
+					</table>
+				</div>
+
+				<h4>4.3 UI Settings</h4>
+				<div class="table-responsive">
+					<table class="table table-bordered table-striped">
+					    <thead>
+					        <tr>
+					            <th>Parameter</th>
+					            <th>Description</th>
+					            <th>Type</th>
+					            <th>Values</th>
+					            <th>Default</th>
+					        </tr>
+					    </thead>
+					    <tbody>
+					        <tr>
+					            <td>`bannerBgColor`</td>
+					            <td>The background color of the banner.</td>
+					            <td>String (Hex Color)</td>
+					            <td>Any valid hex color code</td>
+					            <td>#000</td>
+					        </tr>
+					        <tr>
+					            <td>`bannerTextColor`</td>
+					            <td>The text color of the banner.</td>
+					            <td>String (Hex Color)</td>
+					            <td>Any valid hex color code</td>
+					            <td>#fff</td>
+					        </tr>
+					        <tr>
+					            <td>`bannerBtnColor`</td>
+					            <td>The background color of the buttons.</td>
+					            <td>String (Hex Color)</td>
+					            <td>Any valid hex color code</td>
+					            <td>#000</td>
+					        </tr>
+					        <tr>
+					            <td>`bannerBtnTxtColor`</td>
+					            <td>The text color of the buttons.</td>
+					            <td>String (Hex Color)</td>
+					            <td>Any valid hex color code</td>
+					            <td>#fff</td>
+					        </tr>
+					        <tr>
+					            <td>`bannerBadgeBg`</td>
+					            <td>The background color of the badge.</td>
+					            <td>String (Hex Color)</td>
+					            <td>Any valid hex color code</td>
+					            <td>#fff</td>
+					        </tr>
+					        <tr>
+					            <td>`detailsUrl`</td>
+					            <td>The URL for more details.</td>
+					            <td>String (URL)</td>
+					            <td>Any valid URL</td>
+					            <td>""</td>
+					        </tr>
+					        <tr>
+					            <td>`bannerPosition`</td>
+					            <td>The position of the banner on the screen.</td>
+					            <td>String</td>
+					            <td>"bottom-right", "bottom-left", "top-right", "top-left", "center-modal", "top-line", "bottom-line"</td>
+					            <td>"bottom-right"</td>
+					        </tr>
+					    </tbody>
+					</table>
+				</div>
+
+				<h4>4.4 Translations</h4>
+				<p>You can init any language you want directly as an object or load it as a script from an external file.</p>
+
+				<p>Here is a simple example demonstrating the basic usage of RabbitCookies:</p>
+				<pre class="codes">
+&lt;script&gt;
+$(document).ready(function () {
+	$.RabbitCookies({
+		translations 		: {
+			fr: {
+				title 		: "We use cookies!",
+				message 	: "We use cookies to personalize content and ads, to provide social media features and to analyze our traffic.",
+				accept 		: "Accept All",
+				decline 	: "Decline All",
+				details 	: "Details",
+				badgeText	: '🍪',
+			},
+			ar: {
+				title 		: 'يستخدم هذا الموقع ملفات تعريف الارتباط!',
+				message 	: 'نستخدم ملفات تعريف الارتباط لتحسين تجربتك. من خلال قبول ذلك، فإنك توافق على سياسة ملفات تعريف الارتباط الخاصة بنا.',
+				accept 		: 'قبول',
+				decline 	: 'رفض',
+				details 	: 'تفاصيل',
+				badgeText	: '🍪',
+			},
+			...
+		},
+	});
+});
+&lt;/script&gt;</pre>
+				
+				<h6>4.5.1 Translations Params</h6>
+				<div class="table-responsive">
+					<table class="table table-bordered table-striped">
+					    <thead>
+					        <tr>
+					            <th>Parameter</th>
+					            <th>Description</th>
+					            <th>Type</th>
+					            <th>Values</th>
+					            <th>Default</th>
+					        </tr>
+					    </thead>
+					    <tbody>
+					        <tr>
+					            <td>`title`</td>
+					            <td>The title text in the specified language.</td>
+					            <td>String</td>
+					            <td>Any text</td>
+					            <td>"We use cookies to enhance"</td>
+					        </tr>
+					        <tr>
+					            <td>`message`</td>
+					            <td>The message text in the specified language.</td>
+					            <td>String</td>
+					            <td>Any text</td>
+					            <td>"We use cookies to enhance your experience. By accepting, you agree to our cookie policy."</td>
+					        </tr>
+					        <tr>
+					            <td>`accept`</td>
+					            <td>The text for the accept button in the specified language.</td>
+					            <td>String</td>
+					            <td>Any text</td>
+					            <td>"Accept"</td>
+					        </tr>
+					        <tr>
+					            <td>`decline`</td>
+					            <td>The text for the decline button in the specified language.</td>
+					            <td>String</td>
+					            <td>Any text</td>
+					            <td>"Decline"</td>
+					        </tr>
+					        <tr>
+					            <td>`details`</td>
+					            <td>The text for the details button in the specified language.</td>
+					            <td>String</td>
+					            <td>Any text</td>
+					            <td>"Details"</td>
+					        </tr>
+					        <tr>
+					            <td>`badgeText`</td>
+					            <td>The text for the badge in the specified language.</td>
+					            <td>String</td>
+					            <td>Any text</td>
+					            <td>"🍪"</td>
+					        </tr>
+					        <tr>
+					            <td>`iframeContent`</td>
+					            <td>The text for the blocked iframe content in the specified language.</td>
+					            <td>String</td>
+					            <td>Any text</td>
+					            <td>"This content is blocked. Please review your Privacy Preferences"</td>
+					        </tr>
+					        <tr>
+					            <td>`iframeSourceText`</td>
+					            <td>Writes the domain information of the blocked resource.</td>
+					            <td>String</td>
+					            <td>Any text with mustache match</td>
+					            <td>"Blocked Source: <code>{source}</code>"</td>
+					        </tr>
+					        <tr>
+					            <td>`isAccepted`</td>
+					            <td>When the policy is accepted, it is written in the status field.</td>
+					            <td>String</td>
+					            <td>Any text</td>
+					            <td>"Accepted"</td>
+					        </tr>
+					        <tr>
+					            <td>`isDeclined`</td>
+					            <td>When the policy is declined, it is written in the status field.</td>
+					            <td>String</td>
+					            <td>Any text</td>
+					            <td>"Declined"</td>
+					        </tr>
+					    </tbody>
+					</table>
+				</div>
+
+				<h4>4.6 Third Party Scripts</h4>
+				<p>You can include third party scripts that you want to run based on cookie consents. You can also trigger actions to be taken after the installation process with the callback feature.</p>
+				
+				<p>Here is a simple example demonstrating the basic usage of RabbitCookies:</p>
+				<pre class="codes">
+&lt;script&gt;
+$(document).ready(function () {
+	$.RabbitCookies({
+		thirdPartyScripts 	: [
+			{
+				src 	: "https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID",
+				load 	: "async",
+				appendTo: "head",
+				callback: (event)=>{},
+			},
+			{
+				src 	: "https://cdn.jsdelivr.net/npm/some-plugin@latest/plugin.min.js",
+				load 	: "defer"
+				appendTo: "body",
+				callback: (event)=>{},
+			},
+			...
+		],
+	});
+});
+&lt;/script&gt;</pre>
+				
+				<h6>4.6.1 Third Party Scripts Params</h6>
+				<div class="table-responsive">
+					<table class="table table-bordered table-striped">
+					    <thead>
+					        <tr>
+					            <th>Parameter</th>
+					            <th>Description</th>
+					            <th>Type</th>
+					            <th>Values</th>
+					            <th>Default</th>
+					        </tr>
+					    </thead>
+					    <tbody>
+					        <tr>
+					            <td>`src`</td>
+					            <td>The URL of the third-party script.</td>
+					            <td>String (URL)</td>
+					            <td>Any valid URL</td>
+					            <td>""</td>
+					        </tr>
+					        <tr>
+					            <td>`load`</td>
+					            <td>How to load the script.</td>
+					            <td>String</td>
+					            <td>async, defer, null</td>
+					            <td>null</td>
+					        </tr>
+					        <tr>
+					            <td>`appendTo`</td>
+					            <td>Where to append the script.</td>
+					            <td>String</td>
+					            <td>head, body</td>
+					            <td>head</td>
+					        </tr>
+					        <tr>
+					            <td>`callback`</td>
+					            <td>Callback after adding the script result with promise</td>
+					            <td>function</td>
+					            <td>(result)=>{...}</td>
+					            <td>null</td>
+					        </tr>
+					    </tbody>
+					</table>
+				</div>
+
+				<h4>4.7 Third Party Functions</h4>
+				<p>You can include third party functions that you want to run based on cookie confirmations. You can also trigger actions to be taken after the installation process with the callback feature.</p>
+				
+				<p>Here is a simple example demonstrating the basic usage of RabbitCookies:</p>
+				<pre class="codes">
+&lt;script&gt;
+$(document).ready(function () {
+	$.RabbitCookies({
+		thirdPartyFunctions 	: [
+	        (event)=>{
+	            console.log('Other script loaded.');
+	        },
+	        function(event) {
+	            console.log('Other plugin initialized.');
+	        },
+	        ...
+		],
+	});
+});
+&lt;/script&gt;</pre>
+				<h6>4.7.1 Third Party Functions Params</h6>
+				<div class="table-responsive">
+					<table class="table table-bordered table-striped">
+					    <thead>
+					        <tr>
+					            <th>Parameter</th>
+					            <th>Description</th>
+					            <th>Type</th>
+					            <th>Values</th>
+					            <th>Default</th>
+					        </tr>
+					    </thead>
+					    <tbody>
+					        <tr>
+					            <td>`thirdPartyFunctions`</td>
+					            <td>Functions to be executed after consent is given and return as promise.</td>
+					            <td>Array of Functions</td>
+					            <td>[function(event) {...}, ...]</td>
+					            <td>[]</td>
+					        </tr>
+					    </tbody>
+					</table>
+				</div>
+
+				<h4>4.8 Allowed Domains for IFRAME Embed</h4>
+				<div class="table-responsive">
+					<table class="table table-bordered table-striped">
+					    <thead>
+					        <tr>
+					            <th>Parameter</th>
+					            <th>Description</th>
+					            <th>Type</th>
+					            <th>Values</th>
+					            <th>Default</th>
+					        </tr>
+					    </thead>
+					    <tbody>
+					        <tr>
+					            <td>`IframeAllowedDomains`</td>
+					            <td>List of embedded video provider domains to be controlled by the cookie policy. If it's empty, block all iframes</td>
+					            <td>Array</td>
+					            <td>['youtube.com', 'youtu.be', 'dailymotion.com', ...]</td>
+					            <td>[]</td>
+					        </tr>
+					    </tbody>
+					</table>
+				</div>
+
+				<h3>5. Customization</h3>
+				<p>You can customize the look and feel of the cookie banner by overriding the default CSS styles. All RabbitCookies CSS classes start with <code>.rabbitcookie-</code> to avoid conflicts with other styles.</p>
+				
+				<h3>6. Error Handling</h3>
+				<p>RabbitCookies has built-in error handling. In case any script fails to load or execute, RabbitCookies ensures that your website remains functional.</p>
+
+
+				<h3>7. Extras [External Iframe Overlay Protection]</h3>
+				<p>Our new feature provides enhanced privacy and security by blocking external iframes on your website. If an iframe's source is from a different domain, it will be covered with a semi-transparent overlay to prevent unauthorized content from being displayed or interacted with. Once users consent to cookies, the overlay will automatically be removed, allowing the external content to function normally. You can also block only the domains you specify.</p>
+
+				<div class="text-center mb-3 mt-3">
+					<div class="row">
+						<div class="col-lg-6 col-12">
+							<iframe width="100%" height="220" src="https://www.youtube.com/embed/ymXa3lVCkFY?si=LKk0r3gL6hdxFNKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+							<center>Default blocked</center>
+						</div>
+						<div class="col-lg-6 col-12">
+							<iframe title="vimeo-player" src="https://player.vimeo.com/video/345860956?h=8635663e22" width="100%" height="220" frameborder="0" allowfullscreen></iframe>
+							<center>Default blocked</center>
+						</div>
+						<div class="col-lg-6 lg-offset-3 col-12">
+							<!--<iframe frameborder="0" type="text/html" src="https://geo.dailymotion.com/player.html?video=x8v9yyw" width="100%" height="220" allowfullscreen title="Dailymotion Video Player" allow="web-share"> </iframe> -->
+							<center>Default not blocked</center>
+						</div>
+					</div>
+				</div>
+
+				<h4>How It Works</h4>
+				<ul>
+					<li>Iframe Detection: The script scans all iframes on the page.</li>
+					<li>Domain Verification: For each iframe, the script checks if the source domain is different from the current website's domain.</li>
+					<li>Overlay Application: If the iframe's source domain is different, a semi-transparent overlay is applied to the iframe, covering it and preventing interaction.</li>
+					<li>Cookie Consent Handling: When users accept cookies, the overlay is removed, and the iframe becomes interactive as intended.</li>
+					<li>If there are domains defined in the `IframeAllowedDomains` list, these domains will be blocked. If the list is left empty, all domains will be blocked.</li>
+				</ul>
+				
+				<h3>License</h3>
+				<p>RabbitCookies is licensed under the MIT License. Feel free to use it in your projects and contribute to its development.</p>
+
+				<h3>Contributions</h3>
+				<p>Contributions are welcome! If you encounter any issues, have suggestions, or want to contribute, please open an issue or submit a pull request on GitHub.</p>
+
+				<p>Start using RabbitCookies today to ensure your website is GDPR/KVKK compliant while maintaining a smooth and user-friendly experience. Happy coding! 🎉</p>
+
+			</div>
+		</div>
+	</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="langs/es.js"></script>
+    <!--<script src="langs/tr.js"></script>-->
+    <script defer src="script.js"></script>
+    <script>
+		$(document).ready(function () {
+			/* Demo Code Start */
+			$(document).on('change', '[data-theme-mode]', function(event) {
+				event.preventDefault();
+				let newMode = $('option:selected', $('[data-theme-mode]')).val();
+				$('#rabbit-cookie-banner').attr('data-mode', newMode);
+			});
+
+			$(document).on('change', '[data-theme-position]', function(event) {
+				event.preventDefault();
+				let newPosition = $('option:selected', $('[data-theme-position]')).val();
+				$('#rabbit-cookie-banner').attr('data-position', newPosition);
+			});
+
+			$(document).on('change', '[data-set-theme]', function(event) {
+				event.preventDefault();
+				let newTheme = $('option:selected', $('[data-set-theme]')).val();
+				$('#rabbit-cookie-banner').attr('data-theme', newTheme);
+			});
+
+			$(document).on('change', '[data-set-lang]', function(event) {
+				event.preventDefault();
+				let newLang = $('option:selected', $('[data-set-lang]')).val();
+				$.RabbitCookies.update({language: newLang});
+			});
+			/* Demo Code End */
+
+			$.RabbitCookies({
+			    language 			: "tr",
+			    useLocalStorage     : true,
+			    backgroundOverlay 	: false,
+			    uiSettings 			: {
+			    	theme 				: 'theme-2',
+			    	darkMode 			: true,
+	                bannerPosition 		: 'top-right', // bottom-right, bottom-left, top-right, top-left, center-modal, bottom-line, top-line
+	                bannerBgColor       : '#fff',
+	                bannerTextColor     : '#000',
+	                bannerBtnColor      : '#000',
+	                bannerBtnTxtColor   : '#fff',
+	                bannerBadgeBg       : '#fff',
+	                detailsUrl          : 'https://google.com',
+			    },
+			    translations 		: {
+			        fr: {
+			        	title 			: 'Nous utilisons des cookies pour améliorer',
+			            message 		: 'Nous utilisons des cookies pour améliorer votre expérience. En acceptant, vous acceptez notre politique de cookies.',
+			            accept 			: 'Accepter',
+			            decline 		: 'Refuser',
+			            details 		: 'Détails',
+	                	badgeText		: '🍪',
+	                	iframeContent 	: 'Ce contenu est bloqué.<br/>Veuillez consulter vos préférences en matière de <a href="#" class="gdpr-open-preferences">protection de la vie privée</a>.',
+                    	iframeSourceText: 'Source bloquée: {source}',
+			        }
+			    },
+	            onInit 				: (settings) => {
+	            	writeConsole(`Cookie Consent Inited`);
+	            	writeConsole(`Plugin data storage preference: '${settings.useLocalStorage==true?'localStorage':'cookie'}'`);
+
+	            	/* Demo Selectboxes */
+	            	$('[data-set-theme]').val( settings.uiSettings.theme ); 
+	            	$('[data-theme-mode]').val( settings.uiSettings.darkMode==true ? `dark`:`light` ); 
+	            	$('[data-theme-position]').val( settings.uiSettings.bannerPosition ); 
+	            	/* Demo Selectboxes */
+
+
+	            	console.log(`Languages: ${Object.keys(settings.translations)}`);
+	            },
+	            onAccepted          : () => {
+	            	writeConsole(`Cookie Consent: 'Accepted'`);
+	            },
+	            onDeclined          : () => {
+	            	writeConsole(`Cookie Consent: 'Declined'`);
+	            },
+	            consentStatus 		: async (status) => {
+	            	writeConsole(`is Allowed: '${status.allowed}'`);
+	            	writeConsole(`is Asked: '${status.asked}'`);
+	            	writeConsole(`Cookie Consent Status: ${status.allowed==null ? 'NOT ANSWERED' : (status==true ? 'ACCEPTED' : 'DECLINED')}`);
+	            },
+			    IframeAllowedDomains: ['youtube.com', 'youtu.be', 'vimeo.com'],
+			    thirdPartyScripts 	: [
+			        {
+			            src 	: "https://www.googletagmanager.com/gtag/js?id=YOUR_GA_TRACKING_ID",
+			            load 	: "async", // async,defer,null
+			            appendTo: "head", // head,body
+			            callback: (event)=>{
+			            	writeConsole(`Script Loading: ${event.src}`);
+			            	if(event.status){
+			            		writeConsole(`Script Loaded: ${event.src}`);
+			            		$('#script_1').addClass('runned');
+			            	}else{
+			            		writeConsole(`Script Not Loaded: ${event.src}`);
+			            		writeConsole(`Error: ${event.message}`);
+			            		$('#script_1').addClass('failed');
+			            	}
+		            		// $('#script_1 span').html(event.message);
+			            }
+			        },
+			        {
+			            src 	: "http://non-exist-domain.co.de.tr",
+			            load 	: "async", // async,defer,null
+			            appendTo: "head", // head,body
+			            callback: (event)=>{
+			            	writeConsole(`Script Loading: ${event.src}`);
+			            	if(event.status){
+			            		// writeConsole(`Script Loaded: ${event.src}`);
+			            		$('#script_2').addClass('runned');
+			            	}else{
+			            		// $('#script_2').addClass('failed');
+			            		writeConsole(`Script Not Loaded: ${event.src}`);
+			            		writeConsole(`Error: ${event.message}`);
+			            	}
+		            		// $('#script_2 span').html(event.message);
+			            }
+			        },
+			    ],
+			    thirdPartyFunctions 	: [
+			        (event) => {
+	            		writeConsole(`Function Loading: ${JSON.stringiy(event)}`);
+		            	if(event.status){
+	            			writeConsole(`Function Success: ${JSON.stringiy(event)}`);
+		            		// $('#function_1').addClass('runned');
+		            	}else{
+	            			writeConsole(`Function Failed: ${JSON.stringiy(event)}`);
+		            		// $('#function_1').addClass('failed');
+		            	}
+	            		// $('#function_1 span').html(event.message);
+			        },
+			        (event) => {
+	            		writeConsole(`Function Loading: ${JSON.stringiy(event)}`);
+		            	if(event.status){
+	            			writeConsole(`Function Success: ${JSON.stringiy(event)}`);
+		            		// $('#function_2').addClass('runned');
+		            	}else{
+	            			writeConsole(`Function Failed: ${JSON.stringiy(event)}`);
+		            		// $('#function_2').addClass('failed');
+		            	}
+	            		// $('#function_2 span').html(event.message);
+			        },
+			    ],
+			});
+		});
+		function writeConsole(text){
+			$('#console').append(`> ${text}\n`);
+		}
+    </script>
+</body>
+</html>
