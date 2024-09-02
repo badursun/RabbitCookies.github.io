@@ -1,1 +1,858 @@
-eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('(1N($){2n l={};2n 2L=u;$.1O=1N(c){n 4j=`<1D 4k="#65"A="2o"1i="2o"4l="0 0 32 32"4m="3e://4n.4o.4p/4q/1D"><g 2M="2N(-66.3f -3g.67)"><3h d="68,3g.69,16,0,1,0,16,6a,16,0,0,0,4r,3g.6b,6c,12,0,1,1,12-6d,12,0,0,1,4r,6e.7Z"/><6f A="28.6g"1i="4"2M="2N(4s.4t 4u.4v) 4w(-45.3f)"/></g></1D>`;n 4x=`<?6h 6i="1.0"6j="6k-8"?><1D 4k="#6l"A="2o"1i="2o"4l="0 0 32 32"4m="3e://4n.4o.4p/4q/1D"><3h d="M 16 4 C 9.3i 4 4 9.3i 4 16 C 4 22.3j 9.3i 28 16 28 C 22.3j 28 28 22.3j 28 16 C 28 15.4y 27.6m 15.6n 27.6o 14.6p C 27.6q 14.6r 27.6t 15 26.5 15 C 25.6u 15 24.4z 14.6v 24.6w 13.6x C 23.6y 13.4A 22.6z 14 22 14 C 19.6A 14 18 12.4B 18 10 C 18 9.6B 18.4B 8.4C 18.6C 7.4D C 18.6D 7.6E 18.6F 8 18.5 8 C 17.6G 8 16 6.6H 16 5.5 C 16 4.6I 16.2O 4.6J 16.4E 4.6K C 16.6L 4.6M 16.6N 4 16 4 Z M 23.5 4 C 22.1j 4 22 4.1j 22 5.5 C 22 6.1k 22.1j 7 23.5 7 C 24.1k 7 25 6.1k 25 5.5 C 25 4.1j 24.1k 4 23.5 4 Z M 14.4F 6.2O C 14.25 7.6O 15 8.4C 16.6P 9.6Q C 16.4G 9.4z 16 9.4A 16 10 C 16 13.6R 18.6S 16 22 16 C 22.4E 16 22.4D 15.6T 23.4H 15.6U C 24.4I 16.6V 25.4G 16.6W 25.6X 16.6Y C 25.6Z 22.70 21.2O 26 16 26 C 10.71 26 6 21.4y 6 16 C 6 11.4I 9.4H 7.72 14.4F 6.2O Z M 22 9 C 21.S 9 21 9.S 21 10 C 21 10.T 21.S 11 22 11 C 22.T 11 23 10.T 23 10 C 23 9.S 22.T 9 22 9 Z M 14 10 C 13.S 10 13 10.S 13 11 C 13 11.T 13.S 12 14 12 C 14.T 12 15 11.T 15 11 C 15 10.S 14.T 10 14 10 Z M 27 10 C 26.S 10 26 10.S 26 11 C 26 11.T 26.S 12 27 12 C 27.T 12 28 11.T 28 11 C 28 10.S 27.T 10 27 10 Z M 11 13 C 9.2P 13 9 13.2P 9 15 C 9 16.2Q 9.2P 17 11 17 C 12.2Q 17 13 16.2Q 13 15 C 13 13.2P 12.2Q 13 11 13 Z M 16 15 C 15.S 15 15 15.S 15 16 C 15 16.T 15.S 17 16 17 C 16.T 17 17 16.T 17 16 C 17 15.S 16.T 15 16 15 Z M 12.5 19 C 11.1j 19 11 19.1j 11 20.5 C 11 21.1k 11.1j 22 12.5 22 C 13.1k 22 14 21.1k 14 20.5 C 14 19.1j 13.1k 19 12.5 19 Z M 19.5 20 C 18.1j 20 18 20.1j 18 21.5 C 18 22.1k 18.1j 23 19.5 23 C 20.1k 23 21 22.1k 21 21.5 C 21 20.1j 20.1k 20 19.5 20 Z"/></1D>`;n 2c={1l:73.1l.3k("3l")?"3l":"4J",1m:{q:\'q-1\',4K:u,3m:\'U-1n\',4L:\'#74\',4M:\'#1I\',4N:\'#75\',4O:\'#1I\',4P:\'#1I\',3n:\'4Q://76.77\',},V:{4J:{3o:\'4R 4S 1J!\',Y:\'4R 4S 1J 2d 78 4T 79. 7a 7b, 7c 7d 2d 7e h 7f.\',1E:\'7g\',1K:\'7h\',2e:\'7i\',3p:\'🍪\',3q:\'7j 1f 7k 7l.<2R/>7m 7n 4T <a 4U="#" 1a="3r-2S-3t">7o 7p</a>\',3u:\'7q 7r: {3v}\',3w:\'7s\',3x:\'7t\',},3l:{3o:\'4V 7u ç4W 4Xımı 7vç7wş7x.\',Y:\'7y 7zş7A iç3y ç7B 4Xı7C. 3z 7D ç4W 7Eızı 7F 7Gş 7H.\',1E:\'3z 7I\',1K:\'7J\',2e:\'7K\',3p:\'🍪\',3q:\'4V iç7L 7Mş7N.<2R/>Lü7O <a 4U="#" 1a="3r-2S-3t">7P 7Q</a> gö7R 7Sç7T\',3u:\'7U 7V: {3v}\',3w:\'3z 7W\',3x:\'7X\',}},4Y:[],4Z:[],3A:[],51:s,3B:s,52:()=>{},53:()=>{},2T:B()=>{},2U:B()=>{},};54.55(2c,\'2U\',{56:2c.2U,57:u,58:u});54.55(2c,\'2T\',{56:2c.2T,57:u,58:u});l=$.59(s,{},2c,c);2n 3C=u,3D=u;n 5a=[];n 5b=[];n 3E=B()=>{1v 2p 2q(B(1L)=>{n 2r=D 3F("2r");n 5c=D 3F("5d");1L({1o:(2r===1P?1P:(2r==\'s\'?s:u)),5e:(5c==\'s\'?s:u)})})};n 3G=(5f,V)=>{l.V[5f]=V};n 2V=B()=>{2n 1p=D 3E();$(\'.k-2f\').2g(\'1J-1o 1J-3H\');$(\'#k-3I\').2g(\'h-3J h-2W\').1Q(1p.1o==s?\'h-3J\':\'h-2W\');$(\'.f-2t\').2h(1p.1o==s?l.V[l.1l].3w:l.V[l.1l].3x);E(1p.1o===u||1p.1o===1P){$(\'#k-1E\').3K(\'2u\',u);$(\'#k-1K\').3K(\'2u\',u);$(\'.k-2f\').1Q(`1J-3H`)}1R{$(\'#k-1E\').3K(\'2u\',s);$(\'.k-2f\').1Q(`1J-1o`)}};n 5g=B()=>{E(2L)1v;2L=s;E(7Y 2v!==\'2X\'){E(80.81(2v)){2v.5h(1N(a){3G(a.5i,a.V)})}1R{3G(2v.5i,2v.V)}}1S{2n 1p=D 3E();D l.2U(l);D l.2T(1p);5j();5k();E(1p.1o!==s||1p.1o==1P){E(1p.5e==u||1p.1o==1P){3L()};D 5l()}1R E(1p.1o===s){D 3M();D 3N()};D 2V();5m()}1T(y){2i.y("1O 82 5n:",y)}};n 5j=()=>{n r=$(\'<K>\',{1U:\'k-r\',1a:\'k-r r-W\',\'o-2Y\':s,});n j=$(\'<K>\',{1U:\'f-h-j\',1a:`f-h-j ${l.1m.3m}W`,\'o-q\':`${l.1m.q}`,\'o-1V\':(l.1m.4K?`1W`:`83`),\'o-v\':l.1m.3m,\'o-2Y\':s,}).2h(`<a 1a="k-2w">&84;</a><K 1a="f-h-P">${4x}</K><K 1a="f-h-w"><3O>${l.V[l.1l].3o}</3O><p>${l.V[l.1l].Y}</p></K><K 1a="f-h-1w"><1q 1U="k-1E"1a="f-N">${l.V[l.1l].1E}</1q><1q 1U="k-1K"1a="f-N">${l.V[l.1l].1K}</1q><1q 1U="k-2e"1a="f-N">${l.V[l.1l].2e}</1q></K><K 1a="f-h-2Z">&85;1O 86 87</K>`);n 5o=$(\'<K>\',{1U:\'k-1M-N\',1a:\'k-1M-N\',\'o-2Y\':s,}).2h(`<1q 1U="k-3I"1a="k-1M-P h-2W">${l.V[l.1l].3p}<K 1a="f-2t"></K></1q>`);$(\'3P\').88(r,j,5o)};n 5k=()=>{n 1X=`:89{--1x-j-2x:${l.1m.4L};--1x-j-2y:${l.1m.4M};--1x-1q-2x:${l.1m.4N};--1x-1q-2y:${l.1m.4O};--1x-5p-2x:${l.1m.4P}}2h.f-h-3Q{8a:W}.k-r{v:3R;F:0;1b:0;A:1F%;1i:1F%;1g-t:2z(0,0,0,0.7);z-1r:8b;3S:1G 0.6s 3T-3y-5q;1G:1}.k-r.r-W{1G:0;A:0;1i:0}.f-h-j{G-8c:8d-8e;v:3R;1g-t:#1I;t:2X;z-1r:8f;O-1H:30;1Y-A:8g;3S:8h 0.2s 3T-3y-5q;2A-3U:0 2j 30 2z(0,0,0,0.3)}.f-h-j[o-v="U-1n"]{U:5r;1n:Q}.f-h-j[o-v="U-1b"]{U:5r;1b:Q}.f-h-j[o-v="F-1n"]{F:Q;1n:Q}.f-h-j[o-v="F-1b"]{F:Q;1b:Q}.f-h-j[o-v="1c-5s"]{F:50%;1b:50%;2M:2N(-50%,-50%);1Y-A:5t;5u-1i:8i;1d:H;H-31:8j;1y-1f:8k-8l}.f-h-j[o-v="U-2B"]{U:I;1b:I;1Y-A:1s;A:5v;O-1H:I}.f-h-j[o-v="F-2B"]{F:I;1b:I;1Y-A:1s;A:5v;O-1H:I}.f-h-j[o-v="U-1n"].W{U:-1Z%}.f-h-j[o-v="U-1b"].W{U:-1Z%}.f-h-j[o-v="F-1n"].W{F:-1Z%}.f-h-j[o-v="F-1b"].W{F:-1Z%}.f-h-j[o-v="1c-5s"].W{U:-1Z%}.f-h-j[o-v="U-2B"].W{U:-1Z%}.f-h-j[o-v="F-2B"].W{F:-1Z%}.f-h-j.k-2w{J:1z 1z;v:33;1n:I;1d:34;A:2k;w-1t:1c;G-3V:5w;G-X:Q;t:8m;z-1r:8n;w-3W:1s;35:2C}.f-h-j.k-2w:1A{w-3W:1s}.f-h-j.f-h-P{1d:H}.f-h-j.f-h-P i,.f-h-j.f-h-P 1D{A:3X;1i:3X}.f-h-j.f-h-w{J:1e}.f-h-j.f-h-w 3O{J:I;1u:I;G-X:Q;t:2D(--1x-j-2y)}.f-h-j.f-h-w p{J:I;1u:1z I;G-X:8o;t:2D(--1x-j-2y)}.f-h-j.f-h-1w{J:Q I}.f-h-j.f-h-1w.f-N{J:5x 1e;O-1H:2j;O:1s;35:2C;3S:1g-t 0.3s 3T;G-X:2E}.f-h-j.f-h-1w.f-N:1A{}.f-h-j.f-h-1w#k-1E.f-N:1A{1g-t:"4"8p}.f-h-j.f-h-1w#k-1K.f-N:1A{1g-t:#8q}.f-h-j.f-h-1w#k-2e.f-N:1A{1g-t:"2N(4s.4t 4u.4v) 4w(-45.3f)"8r}.k-2f{1d:H;H-31:3Y;1y-1f:2F;1u-F:2k}.k-2f.1J-1o#k-1E::3Z{1f:"\\\\8s";1u-1n:1z;t:8t}.k-2f.1J-3H#k-1K::3Z{}.k-5y{1d:H;H-31:3Y;J:2j I;G-X:1e;1y-1f:2F;1G:0.4;1u:I}.k-5y:1A{1G:1}.k-N{1u:0 1z;J:5x 2G;O:1s;1g-t:2D(--1x-1q-2x);t:2D(--1x-1q-2y);35:2C;G-X:2E;O-1H:1z;G-3V:5w}.k-N:1A{36:40(1)}.k-N[2u]{1G:0.6;2C-8u:1s}.k-N[2u]:1A{36:8v}.k-1M-N{v:3R;U:Q;1n:Q;z-1r:8w;1g-t:2D(--1x-5p-2x);O-1H:8x}.k-1M-P{G-X:8y;2B-1i:8z;1g:1s;O:1s;35:2C;8A:1s;2A-3U:2z(0,0,0,0.1)I 2j 2E;O-1H:5t}.k-1M-P.h-3J{O:41 8B}.k-1M-P.h-2W{O:41 5z#8C}.k-29-x-r{v:33;F:0;1b:0;A:1F%;1i:1F%;1g-t:2z(0,0,0,0.8);z-1r:8D;1d:H;1t-42:1c;1y-1f:1c;t:#1I;2A-3U:2z(0,0,0,0.45)I 8E Q-Q}.f-2t{5A:W;1g-t:2X;t:#1I;w-1t:1c;J:I 1e;O-1H:2j;v:33;1b:-5B;F:50%;2M:8F(-50%);G-X:8G}.f-2t::3Z{1f:"";v:33;F:50%;1n:-30;1u-F:-1z;O-A:1z;O-1X:5z;O-t:5C 5C 8H}.k-1M-P:1A.f-2t{5A:8I}.x-r-w{w-1t:1c;G-X:8J;G-3V:8K;v:5D;A:1F%;1i:1F%;1d:34;1t-1f:1c}.x-r-w a{t:#1I;w-3W:8L}.x-r-w 1D{A:5E;1i:5E;1u-U:Q}.x-r-w 43{1d:5F-34;1g-t:#8M;O-1H:2j;G-X:1e;J:41 1e;1u-F:1e;1G:0.6}.f-h-j.f-h-2Z{J:1z 2k!37;1d:H;G-X:1e;1y-1f:2F;t:2X;1G:0.4}.f-h-j:1A.f-h-2Z{1G:1}.f-h-j[o-1V="1W"].f-h-2Z{t:#1I}.f-h-j[o-1V="1W"]{1g-t:"2o"8N;t:#8O}.f-h-j[o-1V="1W"].f-h-w{36:40(1)}.f-h-j[o-1V="1W"].k-2w{}.f-h-j[o-1V="1W"].f-h-P i,.f-h-j[o-1V="1W"].f-h-P 1D{36:40(1)}.f-h-j[o-q="q-1"].f-h-P{5u-1i:5B;J:1e;1y-1f:1c;1t-42:1c}.f-h-j[o-q="q-1"].f-h-P i{G-X:5G}.f-h-j[o-q="q-1"].f-h-w{J:Q 2k;w-1t:1c}.f-h-j[o-q="q-1"].f-h-1w{1d:H;1y-1f:1c;38:2G}.f-h-j[o-q="q-2"].f-h-P{1d:1s}.f-h-j[o-q="q-2"].f-h-P i{G-X:5G}.f-h-j[o-q="q-2"].f-h-w{J:Q 2k;w-1t:1b}.f-h-j[o-q="q-2"].f-h-1w{J:1e 2k;1d:H;H-31:3Y;1y-1f:H-2F;38:1e}.f-h-j[o-q="q-2"].f-N{1u:I}.f-h-j[o-q="q-3"]{1d:H;H-5H:5H;38:1z;1Y-A:8P;J:1e}.f-h-j[o-q="q-3"].f-h-P{H:1s;A:3X;1y-1f:1c;1t-42:1c}.f-h-j[o-q="q-3"].f-h-P i{G-X:Q}.f-h-j[o-q="q-3"].f-h-w{w-1t:1b;H:8Q}.f-h-j[o-q="q-3"].f-h-1w{1d:H;1y-1f:2F;38:1e;J:I}.f-h-j[o-q="q-3"].f-N{1u:I}.f-h-j[o-q="q-3"]>K{H:1 1 5I(25%-1e);2A-8R:O-2A;J:1e;w-1t:1c}.f-h-j[o-q="q-3"]>K:8S-8T{H:1 1 1F%}@8U(1Y-A:8V){.k-j{G-X:2E;1Y-A:5I(1F%-2G)!37;1n:2G!37;1b:2G!37}.k-N{G-X:2E;J:30 8W}}`;$(\'<1X>\').w(1X).44(\'5J\')};n 5m=()=>{$(\'#k-1E\').2H(\'2I\',B()=>{D 46(s);D 2V();l.52()});$(\'#k-1K\').2H(\'2I\',B()=>{D 46(u);D 2V();l.53()});$(\'.k-2w\').2H(\'2I\',B()=>{47()});$(\'#k-2e\').2H(\'2I\',()=>{l.1m.3n&&8X.2S(l.1m.3n,\'8Y\')});$(\'#k-3I, .3r-2S-3t\').2H(\'2I\',(e)=>{e.8Z();3L()})};n 3L=()=>{$(\'2h\').1Q(\'f-h-3Q\');$(\'#f-h-j\').2g(\'W\').1Q(\'5K\');l.3B&&$(\'#k-r\').2g(\'r-W\');48("5d",s)};n 47=()=>{$(\'2h\').2g(\'f-h-3Q\');$(\'#f-h-j\').2g(\'5K\').1Q(\'W\');l.3B&&$(\'#k-r\').1Q(\'r-W\')};n 46=B(29)=>{1S{48("2r",29);47();E(29){D 3M();D 3N()}}1T(y){2i.y("49 2d 90 h 29:",y)}};n 5l=B()=>{n 39=1B.5L(\'x\');39.5h((x)=>{n R=x.4a(\'R\')?x.4a(\'R\'):\'\';E(R.3k("3e://")||R.3k("4Q://")){n 5M=2p 91(R);n 4b=5M.92;n 5N=l.3A.93===0||l.3A.94(5O=>4b.95(5O));E(5N){x.4c(\'2l\',R);x.4c(\'R\',\'96:97\');n 2a=1B.3a(\'K\');2a.1X.v=\'5D\';2a.1X.1d=\'5F-34\';2a.1X.A=\'1F%\';x.4d.98(2a,x);2a.2J(x);n r=1B.3a(\'K\');r.5P.5Q(\'k-29-x-r\');n 3b=1B.3a(\'K\');3b.5P.5Q(\'x-r-w\');3b.99=`${4j}<2R/>${l.V[l.1l].3q}<2R/><43>${(l.V[l.1l].3u).9a(/{3v}/g,4b)}</43>`;r.2J(3b);2a.2J(r)}}})};n 3N=B()=>{n 39=1B.5L(\'x\');9b(n x 9c 39){n 2l=x.4a(\'2l\');E(2l){D x.4c(\'R\',2l);x.9d(\'2l\');n r=x.4d.9e(\'.k-29-x-r\');E(r){D x.4d.9f(r)}}}};n 3M=B()=>{1S{E(3C==u){n 5a=D 2q.5R(l.4Y.5S((1h,1r)=>{1v 2p 2q((1L,5T)=>{n 1C=1B.3a("1C");1C.R=1h.R;E(1h.2K===\'B\'){1C.B=s}1R E(1h.2K===\'5U\'){1C.5U=s}1C.9g=()=>{n 2m=1h.3c?1h.3c({2b:s,Y:\'9h\'}):{2b:\'9i\',Y:`5V#${1r+1}9j 5W.`,R:1h.R};1L(2m)};1C.9k=(y)=>{n 2m=1h.3c?1h.3c({2b:u,Y:`49 2d 2K 1C ${y.Y?y.Y:\'\'}`,R:1h.R}):{2b:\'9l\',Y:`5V#${1r+1}5n 2d 2K:${y.Y?y.Y:\'\'}`,R:1h.R};1L(2m)};E(1h.44&&1h.44===\'3P\'){1B.3P.2J(1C)}1R{1B.5J.2J(1C)}})}));3C=s}E(3D==u){n 5b=D 2q.5R(l.4Z.5S(B(4e,1r)=>{1v 2p 2q(B(1L,5T)=>{1S{n 2m=4e?4e({2b:s,Y:`4f#${1r+1}9m 5W.`}):{2b:u,Y:`4f#${1r+1}9n 9o 9p 1N.`}1L(2m)}1T(y){1L({2b:u,Y:`4f#${1r+1}9q 9r y:${y.Y}`})}})}));3D=s}}1T(y){2i.y("49 2d 2K 9s-9t 9u 9v 9w:",y)}};B 1N 4g(){E(l.51==u){1v u}1S{n 4h=\'9x\';3d.5X(4h,\'9y\');3d.9z(4h);1v s}1T(e){1v u}};B 1N 48(a,b){1S{E(D 4g()){3d.5X(a,b)}1R{1B.h=`${a}=${9A(b)};3h=/`}}1T(y){2i.y(\'5Y 9B 5Z 60 61ş62:\',y)}};B 1N 3F(a){1S{E(D 4g()){1v 3d.9C(a)}1R{n 4i=1B.h.9D(2p 9E(\'(^| )\'+a+\'=([^;]+)\'));1v 4i?9F(4i[2]):1P}}1T(y){2i.y(\'5Y 9G 5Z 60 61ş62:\',y);1v 1P}};5g()};$.1O.9H=B(63)=>{l=$.59(s,l,63);$.1O.64();2i.9I(\'9J 9K: \',l)}$.1O.64=B()=>{2L=u;$(\'[o-2Y]\').9L();$.1O(l)}})(9M);',62,607,'|||||||||||||||rabbit||cookie||banner|rabbitcookie|settings||const|data||theme|overlay|true|color|false|position|text|iframe|error||width|async||await|if|top|font|flex|0px|padding|div|||btn|border|icon|20px|src|449219|550781|bottom|translations|hidden|size|message||||||||||||class|left|center|display|10px|content|background|scriptInfo|height|671875|328125|language|uiSettings|right|allowed|rabbitCookies|button|index|none|align|margin|return|actions|rc|justify|5px|hover|document|script|svg|accept|100|opacity|radius|fff|cookies|decline|resolve|floating|function|RabbitCookies|null|addClass|else|try|catch|id|mode|dark|style|max|200||||||||||consent|wrapper|status|defaults|to|details|buttons|removeClass|html|console|4px|30px|xsrc|result|let|800px|new|Promise|rabbitCookiesAllowed||popover|disabled|rabbitCookiesLanguages|close|bg|txt|rgba|box|line|pointer|var|12px|end|15px|on|click|appendChild|load|isInitialized|transform|translate|1875|894531|105469|br|open|consentStatus|onInit|checkButton|declined|undefined|rce|dev|8px|direction||absolute|block|cursor|filter|important|gap|iframes|createElement|overlayContent|callback|localStorage|http|001|321|path|371094|628906|startsWith|tr|bannerPosition|detailsUrl|title|badgeText|iframeContent|gdpr||preferences|iframeSourceText|source|isAccepted|isDeclined|in|Kabul|IframeAllowedDomains|backgroundOverlay|scriptsRunned|functionsRunned|isCookiesAllowed|loadData|addLanguage|disallowed|manage|accepted|prop|showCookieBanner|enableThirdPartyScriptsAndFunctions|removeOverlays|h4|body|popup|fixed|transition|ease|shadow|weight|decoration|60px|row|before|invert|2px|items|small|appendTo||setCookieConsent|hideCookieBanner|saveData|Failed|getAttribute|domain|setAttribute|parentNode|func|Function|hasLocalStorage|testKey|cookieMatch|blockedIcon|fill|viewBox|xmlns|www|w3|org|2000|326|314|348|346|523|rotate|cookieIcon|515625|511719|757813|210938|585938|992188|496094|050781|015625|46875|152344|en|darkMode|bannerBgColor|bannerTextColor|bannerBtnColor|bannerBtnTxtColor|bannerBadgeBg|https|We|use|your|href|Bu|erez|kullan|thirdPartyScripts|thirdPartyFunctions||useLocalStorage|onAccepted|onDeclined|Object|defineProperty|value|writable|configurable|extend|scriptResults|functionResults|permissionAsked|rabbitCookiesAsked|asked|languageCode|init|forEach|code|createHTMLStructure|applyCSS|addOverlayToExternalIframes|attachEventListeners|failed|floatingBtn|badge|out|70px|modal|500px|min|100vw|600|6px|brand|solid|visibility|90px|transparent|relative|45px|inline|46px|wrap|calc|head|shown|querySelectorAll|url|shouldBlock|allowedDomain|classList|add|allSettled|map|reject|defer|Script|successfully|setItem|Veri|bir|hata|olu|tu|newSettings|reBuild|ffffff|310|695|M326|7a16|16A16|7Zm0|28a12|12A12|349|rect|969|xml|version|encoding|utf|000000|964844|039063|90625|566406|507813|839844||023438|421875|3125|160156|359375|535156|796875|789063|265625|558594|539063|996094|519531|117188|882813|941406|433594|019531|332031|011719|167969|476563|046875|273438|308594|691406|9375|8125|4375|851563|953125|96875|464844|03125|484375|097656|navigator|d00|000|google|com|improve|experience|By|accepting|you|agree|our|policy|Accept|Decline|Details|This|is|blocked|Please|review|Privacy|Preferences|Blocked|Source|Accepted|Declined|sitede|ger|ekle|tirilmektedir|Deneyiminizi|iyile|tirmek|erezler|yoruz|ederek|politikam|kabul|etmi|oluyorsunuz|Et|Reddet|Detaylar|erik|engellenmi|tir|tfen|Gizlilik|Tercihlerinizi|zden|ge|irin|Engellenen|Kaynak|Edildi|Reddedildi|typeof||Array|isArray|initialization|light|times|copy|Manager|Plugin|append|root|overflow|99998|family|sans|serif|99999|440px|all|250px|column|space|between|red|999|13px|bc34a|d00000|e9e9e|2713|green|events|unset|1001|200px|24px|34px|outline|solidundefined|ff000045|99997|25px|translateY|11px|transparentundefined|visible|14px|400|underline|ff000057|a1a2e|f1f1f1|600px|auto|sizing|last|child|media|768px|16px|window|_blank|preventDefault|set|URL|hostname|length|some|includes|about|blank|insertBefore|innerHTML|replace|for|of|removeAttribute|querySelector|removeChild|onload|success|fulfilled|loaded|onerror|rejected|completed|not|defined|as|encountered|an|third|party|scripts|or|functions|__test__|test|removeItem|encodeURIComponent|kaydedilirken|getItem|match|RegExp|decodeURIComponent|okunurken|update|log|New|Settings|remove|jQuery'.split('|'),0,{}))
+(function ($) {
+    let settings = {};
+    let isInitialized = false;
+
+    $.RabbitCookies = function (options) {
+        const blockedIcon = `<svg fill="#ffffff" width="800px" height="800px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-310.001 -321.695)"><path d="M326,321.7a16,16,0,1,0,16,16A16,16,0,0,0,326,321.7Zm0,28a12,12,0,1,1,12-12A12,12,0,0,1,326,349.7Z"/><rect width="28.969" height="4" transform="translate(314.348 346.523) rotate(-45.001)"/></g></svg>`;
+        const cookieIcon = `<?xml version="1.0" encoding="utf-8"?><svg fill="#000000" width="800px" height="800px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M 16 4 C 9.371094 4 4 9.371094 4 16 C 4 22.628906 9.371094 28 16 28 C 22.628906 28 28 22.628906 28 16 C 28 15.515625 27.964844 15.039063 27.90625 14.566406 C 27.507813 14.839844 27.023438 15 26.5 15 C 25.421875 15 24.511719 14.3125 24.160156 13.359375 C 23.535156 13.757813 22.796875 14 22 14 C 19.789063 14 18 12.210938 18 10 C 18 9.265625 18.210938 8.585938 18.558594 7.992188 C 18.539063 7.996094 18.519531 8 18.5 8 C 17.117188 8 16 6.882813 16 5.5 C 16 4.941406 16.1875 4.433594 16.496094 4.019531 C 16.332031 4.011719 16.167969 4 16 4 Z M 23.5 4 C 22.671875 4 22 4.671875 22 5.5 C 22 6.328125 22.671875 7 23.5 7 C 24.328125 7 25 6.328125 25 5.5 C 25 4.671875 24.328125 4 23.5 4 Z M 14.050781 6.1875 C 14.25 7.476563 15 8.585938 16.046875 9.273438 C 16.015625 9.511719 16 9.757813 16 10 C 16 13.308594 18.691406 16 22 16 C 22.496094 16 22.992188 15.9375 23.46875 15.8125 C 24.152344 16.4375 25.015625 16.851563 25.953125 16.96875 C 25.464844 22.03125 21.1875 26 16 26 C 10.484375 26 6 21.515625 6 16 C 6 11.152344 9.46875 7.097656 14.050781 6.1875 Z M 22 9 C 21.449219 9 21 9.449219 21 10 C 21 10.550781 21.449219 11 22 11 C 22.550781 11 23 10.550781 23 10 C 23 9.449219 22.550781 9 22 9 Z M 14 10 C 13.449219 10 13 10.449219 13 11 C 13 11.550781 13.449219 12 14 12 C 14.550781 12 15 11.550781 15 11 C 15 10.449219 14.550781 10 14 10 Z M 27 10 C 26.449219 10 26 10.449219 26 11 C 26 11.550781 26.449219 12 27 12 C 27.550781 12 28 11.550781 28 11 C 28 10.449219 27.550781 10 27 10 Z M 11 13 C 9.894531 13 9 13.894531 9 15 C 9 16.105469 9.894531 17 11 17 C 12.105469 17 13 16.105469 13 15 C 13 13.894531 12.105469 13 11 13 Z M 16 15 C 15.449219 15 15 15.449219 15 16 C 15 16.550781 15.449219 17 16 17 C 16.550781 17 17 16.550781 17 16 C 17 15.449219 16.550781 15 16 15 Z M 12.5 19 C 11.671875 19 11 19.671875 11 20.5 C 11 21.328125 11.671875 22 12.5 22 C 13.328125 22 14 21.328125 14 20.5 C 14 19.671875 13.328125 19 12.5 19 Z M 19.5 20 C 18.671875 20 18 20.671875 18 21.5 C 18 22.328125 18.671875 23 19.5 23 C 20.328125 23 21 22.328125 21 21.5 C 21 20.671875 20.328125 20 19.5 20 Z"/></svg>`;
+
+        const defaults = {
+            language            : navigator.language.startsWith("tr") ? "tr" : "en",
+            uiSettings          : {
+                theme               : 'theme-1',
+                darkMode            : false,
+                bannerPosition      : 'bottom-right',
+                bannerBgColor       : '#d00',
+                bannerTextColor     : '#fff',
+                bannerBtnColor      : '#000',
+                bannerBtnTxtColor   : '#fff',
+                bannerBadgeBg       : '#fff',
+                detailsUrl          : 'https://google.com',
+            },
+            translations        : {
+                en: {
+                    title           : 'We use cookies!',
+                    message         : 'We use cookies to improve your experience. By accepting, you agree to our cookie policy.',
+                    accept          : 'Accept',
+                    decline         : 'Decline',
+                    details         : 'Details',
+                    badgeText       : '🍪',
+                    iframeContent   : 'This content is blocked.<br/>Please review your <a href="#" class="gdpr-open-preferences">Privacy Preferences</a>',
+                    iframeSourceText: 'Blocked Source: {source}',
+                    isAccepted      : 'Accepted',
+                    isDeclined      : 'Declined',
+                },
+                tr: {
+                    title           : 'Bu sitede çerez kullanımı gerçekleştirilmektedir.',
+                    message         : 'Deneyiminizi iyileştirmek için çerezler kullanıyoruz. Kabul ederek çerez politikamızı kabul etmiş oluyorsunuz.',
+                    accept          : 'Kabul Et',
+                    decline         : 'Reddet',
+                    details         : 'Detaylar',
+                    badgeText       : '🍪',
+                    iframeContent   : 'Bu içerik engellenmiştir.<br/>Lütfen <a href="#" class="gdpr-open-preferences">Gizlilik Tercihlerinizi</a> gözden geçirin',
+                    iframeSourceText: 'Engellenen Kaynak: {source}',
+                    isAccepted      : 'Kabul Edildi',
+                    isDeclined      : 'Reddedildi',
+                }
+            },
+            thirdPartyScripts   : [],
+            thirdPartyFunctions : [],
+            IframeAllowedDomains: [],
+            useLocalStorage     : true,
+            backgroundOverlay   : true,
+            onAccepted          : () => {},
+            onDeclined          : () => {},
+            consentStatus       : async () => {
+                // return await isCookiesAllowed();
+            },
+            onInit              : async () => {
+                // return await isCookiesAllowed();
+            },
+        };
+
+        Object.defineProperty(defaults, 'onInit', {
+            value       : defaults.onInit,
+            writable    : false,
+            configurable: false
+        });
+        Object.defineProperty(defaults, 'consentStatus', {
+            value       : defaults.consentStatus,
+            writable    : false,
+            configurable: false
+        });
+
+        settings = $.extend(true, {}, defaults, options);
+        let scriptsRunned=false, functionsRunned=false;
+        const scriptResults = [];
+        const functionResults = [];
+        
+        const isCookiesAllowed = async () => {
+            return new Promise(async(resolve) => {
+                const rabbitCookiesAllowed  = await loadData("rabbitCookiesAllowed");
+                const permissionAsked       = await loadData("rabbitCookiesAsked");
+
+                resolve({
+                    allowed : (rabbitCookiesAllowed===null ? null : (rabbitCookiesAllowed =='true' ? true : false)),
+                    asked   : (permissionAsked =='true' ? true : false)
+                });
+            });
+        };
+
+        const addLanguage = (languageCode, translations)=>{
+            settings.translations[languageCode] = translations;
+        };
+
+        const checkButton = async () =>{
+            let rabbitCookies = await isCookiesAllowed();
+            $('.rabbitcookie-buttons').removeClass('cookies-allowed cookies-disallowed');
+            $('#rabbitcookie-manage').removeClass('cookie-accepted cookie-declined').addClass(rabbitCookies.allowed==true?'cookie-accepted':'cookie-declined');
+            $('.rabbit-popover').html(rabbitCookies.allowed==true ? settings.translations[settings.language].isAccepted : settings.translations[settings.language].isDeclined);
+            if (rabbitCookies.allowed===false || rabbitCookies.allowed===null) {
+                $('#rabbitcookie-accept').prop('disabled', false);
+                $('#rabbitcookie-decline').prop('disabled', false);
+                $('.rabbitcookie-buttons').addClass(`cookies-disallowed`);                
+            }else{
+                $('#rabbitcookie-accept').prop('disabled', true);
+                $('.rabbitcookie-buttons').addClass(`cookies-allowed`);
+            }
+        };
+
+        const init = async () => {
+            if (isInitialized) return;
+            isInitialized = true;
+            
+            if (typeof rabbitCookiesLanguages !== 'undefined') {
+                if (Array.isArray(rabbitCookiesLanguages)) {
+                    rabbitCookiesLanguages.forEach(function(language) {
+                        addLanguage(language.code, language.translations);
+                    });
+                } else {
+                    addLanguage(rabbitCookiesLanguages.code, rabbitCookiesLanguages.translations);
+                }
+            }
+
+            try {
+                let rabbitCookies = await isCookiesAllowed();
+                await settings.onInit(settings);
+                await settings.consentStatus(rabbitCookies);
+                
+                createHTMLStructure(); 
+                applyCSS();
+                
+                if (rabbitCookies.allowed!==true || rabbitCookies.allowed==null) {
+                    if(rabbitCookies.asked==false || rabbitCookies.allowed==null){
+                        showCookieBanner()
+                    };
+                    await addOverlayToExternalIframes();
+                } else if (rabbitCookies.allowed === true) {
+                    await enableThirdPartyScriptsAndFunctions();
+                    await removeOverlays();
+                };
+                await checkButton();
+                attachEventListeners();
+            } catch (error) {
+                console.error("RabbitCookies initialization failed:", error);
+            }
+        };
+
+        const createHTMLStructure = () => {
+            const overlay = $('<div>', { 
+                id          : 'rabbitcookie-overlay', 
+                class       : 'rabbitcookie-overlay overlay-hidden',
+                'data-rce'  : true,
+            });
+            const banner = $('<div>', { 
+                id              : 'rabbit-cookie-banner', 
+                class           : `rabbit-cookie-banner ${settings.uiSettings.bannerPosition} hidden`,
+                'data-theme'    : `${settings.uiSettings.theme}`,
+                'data-mode'     : (settings.uiSettings.darkMode ? `dark`:`light`),
+                'data-position' : settings.uiSettings.bannerPosition,
+                'data-rce'      : true,
+            }).html(`
+                <a class="rabbitcookie-close">&times;</a>
+                <div class="rabbit-cookie-icon">${cookieIcon}</div>
+                <div class="rabbit-cookie-text">
+                    <h4>${settings.translations[settings.language].title}</h4>
+                    <p>${settings.translations[settings.language].message}</p>
+                </div>
+                <div class="rabbit-cookie-actions">
+                    <button id="rabbitcookie-accept" class="rabbit-btn">${settings.translations[settings.language].accept}</button>
+                    <button id="rabbitcookie-decline" class="rabbit-btn">${settings.translations[settings.language].decline}</button>
+                    <button id="rabbitcookie-details" class="rabbit-btn">${settings.translations[settings.language].details}</button>
+                </div>
+                <div class="rabbit-cookie-dev">&copy; RabbitCookies Manager Plugin</div>
+            `);
+            const floatingBtn = $('<div>', { 
+                id          : 'rabbitcookie-floating-btn', 
+                class       : 'rabbitcookie-floating-btn',
+                'data-rce'  : true,
+            }).html(`
+                <button id="rabbitcookie-manage" class="rabbitcookie-floating-icon cookie-declined">
+                    ${settings.translations[settings.language].badgeText}
+                    <div class="rabbit-popover"></div>
+                </button>
+            `);
+
+            $('body').append(overlay, banner, floatingBtn);
+        };
+
+        const applyCSS = () => {
+            const style = `
+                :root {
+                    --rc-banner-bg  : ${settings.uiSettings.bannerBgColor};
+                    --rc-banner-txt : ${settings.uiSettings.bannerTextColor};
+                    --rc-button-bg  : ${settings.uiSettings.bannerBtnColor};
+                    --rc-button-txt : ${settings.uiSettings.bannerBtnTxtColor};
+                    --rc-badge-bg   : ${settings.uiSettings.bannerBadgeBg};
+                }
+                html.rabbit-cookie-popup{
+                    overflow:hidden;
+                }
+                .rabbitcookie-overlay {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 0.7);
+                    z-index: 99998;
+                    transition: opacity 0.6s ease-in-out;
+                    opacity:1;
+                }
+                .rabbitcookie-overlay.overlay-hidden {
+                    opacity:0;
+                    width: 0;
+                    height: 0;
+                }
+                .rabbit-cookie-banner {
+                    font-family: sans-serif;
+                    position: fixed;
+                    background-color: #fff;
+                    color: #000;
+                    z-index: 99999;
+                    border-radius: 8px;
+                    max-width: 440px;
+                    transition: all 0.2s ease-in-out;
+                    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+                }
+                .rabbit-cookie-banner[data-position="bottom-right"]{
+                    bottom: 70px;
+                    right: 20px;
+                }
+                .rabbit-cookie-banner[data-position="bottom-left"]{
+                    bottom: 70px;
+                    left: 20px;
+                }
+                .rabbit-cookie-banner[data-position="top-right"]{
+                    top: 20px;
+                    right: 20px;
+                }
+                .rabbit-cookie-banner[data-position="top-left"]{
+                    top: 20px;
+                    left: 20px;
+                }
+                .rabbit-cookie-banner[data-position="center-modal"]{
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    max-width: 500px;
+                    min-height: 250px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+                .rabbit-cookie-banner[data-position="bottom-line"]{
+                    bottom: 0px;
+                    left: 0px;
+                    max-width: none;
+                    width: 100vw;
+                    border-radius: 0px;
+                }
+                .rabbit-cookie-banner[data-position="top-line"]{
+                    top: 0px;
+                    left: 0px;
+                    max-width: none;
+                    width: 100vw;
+                    border-radius: 0px;
+                }
+
+                .rabbit-cookie-banner[data-position="bottom-right"].hidden{
+                    bottom: -200%;
+                }
+                .rabbit-cookie-banner[data-position="bottom-left"].hidden{
+                    bottom: -200%;
+                }
+                .rabbit-cookie-banner[data-position="top-right"].hidden{
+                    top: -200%;
+                }
+                .rabbit-cookie-banner[data-position="top-left"].hidden{
+                    top: -200%;
+                }
+                .rabbit-cookie-banner[data-position="center-modal"].hidden{
+                    bottom: -200%;
+                }
+                .rabbit-cookie-banner[data-position="bottom-line"].hidden{
+                    bottom: -200%;
+                }
+                .rabbit-cookie-banner[data-position="top-line"].hidden{
+                    top: -200%;
+                }
+
+                .rabbit-cookie-banner .rabbitcookie-close{
+                    padding: 5px 5px;
+                    position: absolute;
+                    right: 0px;
+                    display: block;
+                    width: 30px;
+                    text-align: center;
+                    font-weight: 600;
+                    font-size: 20px;
+                    color:red;
+                    z-index:999;
+                    text-decoration: none;
+                    cursor:pointer;
+                }
+                .rabbit-cookie-banner .rabbitcookie-close:hover{
+                    text-decoration: none;
+                }
+                .rabbit-cookie-banner .rabbit-cookie-icon{
+                    display: flex;
+                }
+                .rabbit-cookie-banner .rabbit-cookie-icon i,
+                .rabbit-cookie-banner .rabbit-cookie-icon svg{
+                    width:60px;
+                    height:60px;
+                }
+
+                .rabbit-cookie-banner .rabbit-cookie-text{
+                    padding: 10px;
+                }
+                .rabbit-cookie-banner .rabbit-cookie-text h4{
+                    padding: 0px;
+                    margin: 0px;
+                    font-size: 20px;
+                    color: var(--rc-banner-txt);
+                }
+                .rabbit-cookie-banner .rabbit-cookie-text p{
+                    padding: 0px;
+                    margin: 5px 0px;
+                    font-size: 13px;
+                    color: var(--rc-banner-txt);
+                }
+
+                .rabbit-cookie-banner .rabbit-cookie-actions{
+                    padding:20px 0px;
+                }
+                .rabbit-cookie-banner .rabbit-cookie-actions .rabbit-btn{
+                    padding: 6px 10px;
+                    border-radius: 4px;
+                    border: none;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease;
+                    font-size: 12px;
+                }
+                .rabbit-cookie-banner .rabbit-cookie-actions .rabbit-btn:hover{
+
+                }
+                .rabbit-cookie-banner .rabbit-cookie-actions #rabbitcookie-accept.rabbit-btn:hover{
+                    background-color: #8bc34a;
+                }
+                .rabbit-cookie-banner .rabbit-cookie-actions #rabbitcookie-decline.rabbit-btn:hover{
+                    background-color: #d00000;
+                }
+                .rabbit-cookie-banner .rabbit-cookie-actions #rabbitcookie-details.rabbit-btn:hover{
+                    background-color: #9e9e9e;
+                }
+                .rabbitcookie-buttons{
+                    display: flex; 
+                    flex-direction: row; 
+                    justify-content: end;
+                    margin-top: 30px;
+                }
+                .rabbitcookie-buttons.cookies-allowed #rabbitcookie-accept::before {
+                    content: "\\2713";
+                    margin-right: 5px;
+                    color: green;
+                }
+                .rabbitcookie-buttons.cookies-disallowed #rabbitcookie-decline::before {
+                    /*content: "\\2713";
+                    margin-right: 5px;
+                    color: red;*/
+                }
+                .rabbitcookie-brand{
+                    display: flex;
+                    flex-direction: row;
+                    padding: 4px 0px;
+                    font-size: 10px;
+                    justify-content: end;
+                    opacity: 0.4;
+                    margin: 0px;
+                }
+                .rabbitcookie-brand:hover{
+                    opacity: 1;
+                }
+                .rabbitcookie-btn {
+                    margin: 0 5px;
+                    padding: 6px 15px;
+                    border: none;
+                    background-color: var(--rc-button-bg);
+                    color: var(--rc-button-txt);
+                    cursor: pointer;
+                    font-size: 12px;
+                    border-radius: 5px;
+                    font-weight: 600;
+                }
+                .rabbitcookie-btn:hover {
+                    filter:invert(1);
+                }
+                .rabbitcookie-btn[disabled] {
+                    opacity:0.6;
+                    pointer-events: none;
+                }
+                .rabbitcookie-btn[disabled]:hover {
+                    filter:unset;
+                }
+                .rabbitcookie-floating-btn {
+                    position: fixed;
+                    bottom: 20px;
+                    right: 20px;
+                    z-index: 1001;
+                    background-color: var(--rc-badge-bg); 
+                    border-radius: 200px;
+                }
+                .rabbitcookie-floating-icon {
+                    font-size: 24px;
+                    line-height: 34px;
+                    background: none;
+                    border: none;
+                    cursor: pointer;
+                    outline: none;
+                    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+                    border-radius: 500px;
+                }
+                .rabbitcookie-floating-icon.cookie-accepted {border:2px solid #00800045;}
+                .rabbitcookie-floating-icon.cookie-declined {border:2px solid #ff000045;}
+                .rabbitcookie-consent-iframe-overlay {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 0.8); /* Dark semi-transparent overlay */
+                    z-index: 99997;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #fff;
+                    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+                }
+                .rabbit-popover {
+                    visibility: hidden;
+                    background-color: #000;
+                    color: #fff;
+                    text-align: center;
+                    padding: 0px 10px;
+                    border-radius: 4px;
+                    position: absolute;
+                    left: -90px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    font-size: 11px;
+                }
+                .rabbit-popover::before {
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    right: -8px;
+                    margin-top: -5px;
+                    border-width: 5px;
+                    border-style: solid;
+                    border-color: transparent transparent transparent #000;
+                }
+                .rabbitcookie-floating-icon:hover .rabbit-popover {
+                    visibility: visible;
+                }
+                .iframe-overlay-text {
+                    text-align: center;
+                    font-size: 14px;
+                    font-weight: 400;
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                    align-content: center;
+                }
+                .iframe-overlay-text a{
+                    color:#fff;
+                    text-decoration: underline;
+                }
+                .iframe-overlay-text svg{
+                    width: 45px;
+                    height: 45px;
+                    margin-bottom: 20px;
+                }
+                .iframe-overlay-text small{
+                    display: inline-block;
+                    background-color: #ff000057;
+                    border-radius: 4px;
+                    font-size: 10px;
+                    padding: 2px 10px;
+                    margin-top: 10px;
+                    opacity: 0.6;
+                }
+
+
+                .rabbit-cookie-banner .rabbit-cookie-dev{
+                    padding: 5px 30px !important;
+                    display: flex;
+                    font-size: 10px;
+                    justify-content: end;
+                    color:#000;
+                    opacity: 0.4;
+                }
+                .rabbit-cookie-banner:hover .rabbit-cookie-dev{
+                    opacity: 1;
+                }
+                .rabbit-cookie-banner[data-mode="dark"] .rabbit-cookie-dev{
+                    color:#fff;
+                }
+
+
+
+                /* 
+                    Dark Mode 
+                */
+                .rabbit-cookie-banner[data-mode="dark"]{
+                    background-color: #1a1a2e;
+                    color: #f1f1f1;
+                }
+                .rabbit-cookie-banner[data-mode="dark"] .rabbit-cookie-text {
+                    filter: invert(1);
+                }
+                .rabbit-cookie-banner[data-mode="dark"] .rabbitcookie-close{
+
+                }
+                .rabbit-cookie-banner[data-mode="dark"] .rabbit-cookie-icon i,
+                .rabbit-cookie-banner[data-mode="dark"] .rabbit-cookie-icon svg{
+                    filter: invert(1);
+                }
+
+                /* Theme 1  */
+                .rabbit-cookie-banner[data-theme="theme-1"] .rabbit-cookie-icon{
+                    min-height:90px;
+                    padding: 10px;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .rabbit-cookie-banner[data-theme="theme-1"] .rabbit-cookie-icon i{
+                    font-size:46px;
+                }
+                .rabbit-cookie-banner[data-theme="theme-1"] .rabbit-cookie-text{
+                    padding:20px 30px;
+                    text-align: center;
+                }
+                .rabbit-cookie-banner[data-theme="theme-1"] .rabbit-cookie-actions{
+                    display: flex;
+                    justify-content: center;
+                    gap: 15px;
+                }
+
+                /* Theme 2  */
+                .rabbit-cookie-banner[data-theme="theme-2"] .rabbit-cookie-icon{
+                    display:none;
+                }
+                .rabbit-cookie-banner[data-theme="theme-2"] .rabbit-cookie-icon i{
+                    font-size:46px;
+                }
+                .rabbit-cookie-banner[data-theme="theme-2"] .rabbit-cookie-text{
+                    padding:20px 30px;
+                    text-align: left;
+                }
+                .rabbit-cookie-banner[data-theme="theme-2"] .rabbit-cookie-actions{
+                    padding: 10px 30px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    gap: 10px;
+                }
+                .rabbit-cookie-banner[data-theme="theme-2"] .rabbit-btn{
+                    margin:0px;
+                }
+
+                /* Theme 3  */
+                .rabbit-cookie-banner[data-theme="theme-3"]{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 5px; 
+                    max-width: 600px;
+                    padding: 10px;
+                }
+                .rabbit-cookie-banner[data-theme="theme-3"] .rabbit-cookie-icon{
+                    flex: none;
+                    width: 60px;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .rabbit-cookie-banner[data-theme="theme-3"] .rabbit-cookie-icon i{
+                    font-size:20px;
+                }
+                .rabbit-cookie-banner[data-theme="theme-3"] .rabbit-cookie-text{
+                    text-align: left;
+                    flex: auto;
+                }
+                .rabbit-cookie-banner[data-theme="theme-3"] .rabbit-cookie-actions{
+                    display: flex;
+                    justify-content: end;
+                    gap: 10px;
+                    padding: 0px;
+                }
+                .rabbit-cookie-banner[data-theme="theme-3"] .rabbit-btn{
+                    margin:0px;
+                }
+                .rabbit-cookie-banner[data-theme="theme-3"] > div {
+                    flex: 1 1 calc(25% - 10px); /* 4 eleman için her biri %25 genişlikte ve boşluk hesaplanır */
+                    box-sizing: border-box;
+                    padding: 10px;
+                    text-align: center;
+                }
+                .rabbit-cookie-banner[data-theme="theme-3"] > div:last-child {
+                    flex: 1 1 100%; /* Son eleman tüm alanı kaplar */
+                }
+
+                @media (max-width: 768px) {
+                    .rabbitcookie-banner {
+                        font-size: 12px;
+                        max-width: calc(100% - 15px) !important;
+                        right: 15px !important;
+                        left: 15px !important;
+                    }
+                    .rabbitcookie-btn {
+                        font-size: 12px;
+                        padding: 8px 16px;
+                    }
+                }
+
+            `;
+            $('<style>').text(style).appendTo('head');
+        };
+
+        const attachEventListeners = () => {
+            $('#rabbitcookie-accept').on('click', async () => {
+                await setCookieConsent(true);
+                await checkButton();
+                settings.onAccepted();
+            });
+
+            $('#rabbitcookie-decline').on('click', async () => {
+                await setCookieConsent(false);
+                await checkButton();
+                settings.onDeclined();
+            });
+
+            $('.rabbitcookie-close').on('click', async () => {
+                hideCookieBanner();
+            });
+
+            $('#rabbitcookie-details').on('click', () => {
+                settings.uiSettings.detailsUrl && window.open(settings.uiSettings.detailsUrl, '_blank');
+            });
+
+            $('#rabbitcookie-manage, .gdpr-open-preferences').on('click', (e) => {
+                e.preventDefault();
+                showCookieBanner();
+            });
+        };
+
+        const showCookieBanner = () => {
+            $('html').addClass('rabbit-cookie-popup');
+            $('#rabbit-cookie-banner').removeClass('hidden').addClass('shown');
+            settings.backgroundOverlay && $('#rabbitcookie-overlay').removeClass('overlay-hidden');
+            saveData("rabbitCookiesAsked", true);
+        };
+
+        const hideCookieBanner = () => {
+            $('html').removeClass('rabbit-cookie-popup');
+            $('#rabbit-cookie-banner').removeClass('shown').addClass('hidden');
+            settings.backgroundOverlay && $('#rabbitcookie-overlay').addClass('overlay-hidden');
+        };
+
+        const setCookieConsent = async (consent) => {
+            try {
+                saveData("rabbitCookiesAllowed", consent);
+                
+                hideCookieBanner();
+                if (consent) {
+                    await enableThirdPartyScriptsAndFunctions();
+                    await removeOverlays();
+                }
+            } catch (error) {
+                console.error("Failed to set cookie consent:", error);
+            }
+        };
+
+        const addOverlayToExternalIframes = async () => {
+            const iframes = document.querySelectorAll('iframe');
+
+            iframes.forEach((iframe) => {
+                const src = iframe.getAttribute('src') ? iframe.getAttribute('src') : '';
+                if (src.startsWith("http://") || src.startsWith("https://")) {
+                    const url = new URL(src);
+                    const domain = url.hostname;
+
+                    const shouldBlock = settings.IframeAllowedDomains.length === 0 || 
+                                        settings.IframeAllowedDomains.some(allowedDomain => domain.includes(allowedDomain));
+
+                    if (shouldBlock) {
+                        iframe.setAttribute('xsrc', src);
+                        iframe.setAttribute('src', 'about:blank');
+
+                        const wrapper = document.createElement('div');
+                        wrapper.style.position = 'relative';
+                        wrapper.style.display = 'inline-block';
+                        wrapper.style.width = '100%';
+
+                        iframe.parentNode.insertBefore(wrapper, iframe);
+                        wrapper.appendChild(iframe);
+
+                        const overlay = document.createElement('div');
+                        overlay.classList.add('rabbitcookie-consent-iframe-overlay');
+
+                        const overlayContent = document.createElement('div');
+                        overlayContent.classList.add('iframe-overlay-text');
+                        overlayContent.innerHTML = `
+                            ${blockedIcon}<br/>
+                            ${settings.translations[settings.language].iframeContent}<br/>
+                            <small>${(settings.translations[settings.language].iframeSourceText).replace(/{source}/g, domain)}</small>`;
+
+                        overlay.appendChild(overlayContent);
+                        wrapper.appendChild(overlay);
+                    }
+                }
+            });
+        };
+
+        const removeOverlays = async () => {
+            const iframes = document.querySelectorAll('iframe');
+            for (const iframe of iframes) {
+                const xsrc = iframe.getAttribute('xsrc');
+                if (xsrc) {
+                    await iframe.setAttribute('src', xsrc);
+                    iframe.removeAttribute('xsrc');
+                    const overlay = iframe.parentNode.querySelector('.rabbitcookie-consent-iframe-overlay');
+                    if (overlay) {
+                        await iframe.parentNode.removeChild(overlay);
+                    }
+                }
+            }
+        };
+
+        const enableThirdPartyScriptsAndFunctions = async () => {
+            try {
+                if(scriptsRunned==false){
+                    const scriptResults = await Promise.allSettled(
+                        settings.thirdPartyScripts.map((scriptInfo, index) => {
+                            return new Promise((resolve, reject) => {
+                                const script = document.createElement("script");
+                                script.src = scriptInfo.src;
+
+                                if (scriptInfo.load === 'async') {
+                                    script.async = true;
+                                } else if (scriptInfo.load === 'defer') {
+                                    script.defer = true;
+                                }
+
+                                script.onload = () => {
+                                    const result = scriptInfo.callback
+                                        ? scriptInfo.callback({ status: true, message: 'success' })
+                                        : { status: 'fulfilled', message: `Script #${index + 1} loaded successfully.`, src:scriptInfo.src };
+                                    resolve(result);
+                                };
+
+                                script.onerror = (error) => {
+                                    const result = scriptInfo.callback
+                                        ? scriptInfo.callback({ status: false, message: `Failed to load script ${error.message ? error.message : ''}`, src:scriptInfo.src })
+                                        : { status: 'rejected', message: `Script #${index + 1} failed to load: ${error.message ? error.message : ''}`, src:scriptInfo.src };
+                                    resolve(result);
+                                };
+
+                                if (scriptInfo.appendTo && scriptInfo.appendTo === 'body') {
+                                    document.body.appendChild(script);
+                                } else {
+                                    document.head.appendChild(script);
+                                }
+                            });
+                        })
+                    );
+                    scriptsRunned=true;
+                }
+
+                if(functionsRunned==false){
+                    const functionResults = await Promise.allSettled(
+                        settings.thirdPartyFunctions.map(async (func, index) => {
+                            return new Promise(async (resolve, reject) => {
+                                try {
+                                    const result = func 
+                                        ? func({status : true, message: `Function #${index + 1} completed successfully.`})
+                                        : {status : false, message: `Function #${index + 1} not defined as function.`}
+                                    resolve(result);
+                                } catch (error) {
+                                    resolve({
+                                        status : false,
+                                        message: `Function #${index + 1} encountered an error: ${error.message}`
+                                    });
+                                }
+                            });
+                        })
+                    );
+                    functionsRunned=true;
+                }
+
+            } catch (error) {
+                console.error("Failed to load third-party scripts or functions:", error);
+            }
+        };
+
+        async function hasLocalStorage() {
+            if(settings.useLocalStorage==false){return false}
+            
+            try {
+                const testKey = '__test__';
+                localStorage.setItem(testKey, 'test');
+                localStorage.removeItem(testKey);
+                return true;
+            } catch (e) {
+                return false;
+            }
+        };
+
+        async function saveData(key, value) {
+            try {
+                if (await hasLocalStorage()) {
+                    localStorage.setItem(key, value);
+                } else {
+                    document.cookie = `${key}=${encodeURIComponent(value)}; path=/`;
+                }
+            } catch (error) {
+                console.error('Veri kaydedilirken bir hata oluştu:', error);
+            }
+        };
+
+        async function loadData(key) {
+            try {
+                if (await hasLocalStorage()) {
+                    return localStorage.getItem(key);
+                } else {
+                    const cookieMatch = document.cookie.match(new RegExp('(^| )' + key + '=([^;]+)'));
+                    return cookieMatch ? decodeURIComponent(cookieMatch[2]) : null;
+                }
+            } catch (error) {
+                console.error('Veri okunurken bir hata oluştu:', error);
+                return null;
+            }
+        };
+
+        init();
+    };
+
+    $.RabbitCookies.update = async (newSettings)=>{
+        settings = $.extend(true, settings, newSettings);
+        $.RabbitCookies.reBuild();
+        console.log('New Settings: ', settings);
+    }
+
+    $.RabbitCookies.reBuild = async ()=>{
+        isInitialized=false;
+        $('[data-rce]').remove();
+        $.RabbitCookies(settings);
+    }
+})(jQuery);
